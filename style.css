@@ -7,6 +7,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    background-color: black;
    
 }
 
@@ -40,4 +41,108 @@ body{
     color: gold;
     
     transition: 2s;
+}
+.home{
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.home button{
+    background-color:orange;
+    padding: 10px 10px;
+    border-radius: 10px ;
+    border: none;
+
+}
+.home button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: 2s;
+}
+
+.home-text{
+      color: white;
+      padding-left: 100px;
+      font-weight: bolder;
+}
+.home-text h1{
+    font-size: 50px;
+    color: orange;
+}
+.home-text p{
+    font-size: 20px;
+}
+
+.home-img{
+    padding-left: 200px;
+    
+
+}
+.about{
+    padding: 70px 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.about-text{
+    color: white;
+    padding-left: 200px;
+    font-weight: bolder;
+}
+.about-text h1{
+    font-size: 50px;
+    color: orange;
+}
+.about-img{
+    max-width: 100%;
+    width: 580px;
+    height: auto;
+}
+.about button{
+    background-color:orange;
+    padding: 10px 10px;
+    border-radius: 10px ;
+    border: none;
+
+}
+.about button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: 2s;
+}
+
+.menu{
+    padding-left: 200px;
+    line-height: 0.5;
+    
+}
+.header1{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.header1 span{
+    color: orange;
+    font-weight: 600;
+    font-size: larger;
+}
+.header1 h2{
+    
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+    grid-gap: 1.5rem;
+    align-items: center;
 }
