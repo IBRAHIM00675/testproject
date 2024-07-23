@@ -36,9 +36,8 @@ body{
 }
 
 .navbar ul li a:hover {
-    color: gold;
-    
-    transition: 2s;
+    color: orange; 
+    transition: 1s;
 }
 .home{
     padding: 50px 5%;
@@ -61,7 +60,7 @@ body{
 }
 button:hover{
     transform: scale(1.2) translateY(10px);
-    transition: 2s;
+    transition: 1s;
 }
 
 .home-text{
@@ -148,7 +147,7 @@ button:hover{
 }
 .box1{
     background-color: white;
-    padding:10px 40px ;
+    padding:10px 50px ;
     border-radius: 5px;
 }
 .box2{
@@ -162,12 +161,13 @@ button:hover{
     border-radius: 5px;
 }
 
-.box-text{
-    color: orange;
+.box-text h2, h3{
+    color:black;
    
 }
 .box-text span{
      color: orange;
+     font-weight: bolder;
 }
 
 .box-img img{
@@ -181,6 +181,123 @@ button:hover{
 .fa-cart-shopping {
     color: orange;
     cursor: pointer;
-    padding-left: 5px;
+    font-size: 20px;
+    padding: 7px 10px;
+
 }
+
+.header3{
+   margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+.header3 span{
+    color: orange;
+    font-weight: 600;
+    font-size: larger;
+}
+.header3 h2{
+    font-weight: bolder;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.s-box {
+    padding: 20px;
+    text-align: center;
+   
+}
+.s-box img {
+    max-width: 100%;
+    height: auto;
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 20px;
+}
+.s-box h3 {
+    margin: 10px 0;
+    color: orange;
+}
+.s-box p {
+    margin: 10px 0;
+    color: white;
+    font-weight: bolder;
+}
+.new{
+    background-color: antiquewhite;
+    padding: 70px 0;
+    text-align: center;
+    width: 70%;
+    margin: 100px auto;
+    border-radius: 15px;
+   
+}
+.new h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.new button{
+    background-color:orange;
+    padding: 10px 10px;
+    border-radius: 10px ;
+    border: none;
+}
+.new button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    transform: scale(1.2) translateY(10px);
+    transition: 2s;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+    height: 230px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.col h4{
+    font-weight: bolder;
+    color:orange;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.col ul{
+    list-style-type: none;
+}
+.col li a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.9;
+}
+.col li a:hover{
+    color: grey;
+    transition: 1s;
+}
+.social a{
+    padding: 0px 10px;
+    color: grey;
+    font-size: 20px;
+}
+.social a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+
 
