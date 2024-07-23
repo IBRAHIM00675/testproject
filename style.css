@@ -288,14 +288,23 @@ button:hover{
     color: grey;
     transition: 1s;
 }
+
 .social a{
-    padding: 0px 10px;
-    color: grey;
+    padding: 10px 10px;
+    color:white;
     font-size: 20px;
+   
 }
 .social a:hover{
     color: orange;
     transition: 1s;
+}
+
+@media (max-width:1560px){
+    header{
+        padding: 15px 40px;
+        
+    }
 }
 
 
