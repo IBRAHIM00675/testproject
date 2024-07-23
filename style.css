@@ -300,12 +300,97 @@ button:hover{
     transition: 1s;
 }
 
-@media (max-width:1560px){
-    header{
-        padding: 15px 40px;
-        
+/* Media query for screens smaller than 768px (tablets and smartphones) */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .home,
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-text,
+    .about-text {
+        margin-bottom: 20px;
+    }
+
+    .home-img img,
+    .about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-text button,
+    .about-text button {
+        width: 100%;
+    }
+    .footer{
+        width: auto;
+        height: auto;
+    }
+    .footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .col {
+        margin: 10px 0;
     }
 }
+
+/* Media query for screens between 768px and 1024px (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .home,
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-text,
+    .about-text {
+        margin-bottom: 20px;
+    }
+
+    .home-img img,
+    .about-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-text button,
+    .about-text button {
+        width: 50%;
+    }
+    .footer{
+        width: auto;
+        height: auto;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .col {
+        margin: 10px 0;
+    }
+}
+
+
+
 
 
 
