@@ -8,6 +8,7 @@ body{
     justify-content: space-between;
     align-items: center; 
     background-color: black;
+    padding: 0px 80px;
    
 }
 
@@ -22,13 +23,10 @@ body{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-     
 }
 
 .navbar ul li {
    padding-right: 50px;
-  
-    
 }
 
 .navbar ul li a {
@@ -79,10 +77,11 @@ button:hover{
     font-size: 20px;
 }
 
-.home-img{
-    padding-left: 200px;
-    
-
+.home-img img{
+    padding-left: 100px;
+    max-width: 100%;
+    height: auto;
+    width: 550px; 
 }
 .about{
     padding: 70px 5%;
@@ -100,10 +99,11 @@ button:hover{
     font-size: 50px;
     color: orange;
 }
-.about-img{
+.about-img img{
     max-width: 100%;
-    width: 580px;
     height: auto;
+    width: 500px; 
+    padding-left: 30px;
 }
 .about button{
     background-color:orange;
@@ -123,7 +123,6 @@ button:hover{
 }
 
 .menu{
-    padding-left: 200px;
     line-height: 0.5;
     
 }
@@ -138,11 +137,50 @@ button:hover{
     font-size: larger;
 }
 .header1 h2{
-    
+    font-weight: bolder;
 }
-.menu-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
-    grid-gap: 1.5rem;
-    align-items: center;
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 50px;
 }
+.box1{
+    background-color: white;
+    padding:10px 40px ;
+    border-radius: 5px;
+}
+.box2{
+    background-color: white;
+    padding:10px 40px ;
+    border-radius: 5px;
+}
+.box3{
+    background-color: white;
+    padding:10px 40px ;
+    border-radius: 5px;
+}
+
+.box-text{
+    color: orange;
+   
+}
+.box-text span{
+     color: orange;
+}
+
+.box-img img{
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    width: 150px; 
+    height: 150px;
+}
+
+.fa-cart-shopping {
+    color: orange;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
