@@ -123,6 +123,7 @@ button:hover{
 
 .menu{
     line-height: 0.5;
+    margin-top: 50px;
     
 }
 .header1{
@@ -263,6 +264,7 @@ button:hover{
     color: white;
     padding: 60px 0;
     height: 230px;
+    margin-top: 50px;
 }
 .row{
     display: flex;
